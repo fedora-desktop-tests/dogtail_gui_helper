@@ -316,7 +316,7 @@ class App(object):
                     name=self.getName(), roleName='label')
                 app.click()
             else:
-                typeText(self.getExec())
+                typeText(self.getName())
                 time.sleep(2)
                 pressKey('Enter')
 
